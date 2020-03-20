@@ -49,7 +49,8 @@ public class Main {
 		VideoApprofondimento v4 = new VideoApprofondimento(nome_evento, data_evento, Sport.CALCIO);
 
 		v4.addGiornalista(new Giornalista("TIZIO", "CAIO"));
-		v4.addGiornalista(new Giornalista("MODIFICALOCALE", "PLUTO"));
+		v4.addGiornalista(new Giornalista("MODIFICALOCALE", "MODIFICALOCALE"));
+
 
 
 		nome_evento = "Partita S.C.Napoli-Spal";
