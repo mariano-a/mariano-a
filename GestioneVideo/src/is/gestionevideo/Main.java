@@ -52,7 +52,7 @@ public class Main {
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
 
 
-		nome_evento = "Partita Napoli-Spal";
+		nome_evento = "Partita S.C.Napoli-Spal";
 
 		data_evento = LocalDate.of(2020, Month.SEPTEMBER, 25);
 
