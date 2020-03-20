@@ -52,12 +52,18 @@ public class Main {
 		v4.addGiornalista(new Giornalista("PIPPO", "PLUTO"));
 
 
+		nome_evento = "Partita Napoli-Spal";
+
+		data_evento = LocalDate.of(2020, Month.SEPTEMBER, 25);
+
+		VideoEvento v5 = new VideoEvento(nome_evento, data_evento, Sport.CALCIO);
 
 
 		gestionevideo.caricaVideo(v1);
 		gestionevideo.caricaVideo(v2);
 		gestionevideo.caricaVideo(v3);
 		gestionevideo.caricaVideo(v4);
+		gestionevideo.caricaVideo(v5);
 
 		ArrayList<Video> v_ricerca = gestionevideo.ricercaVideo(Sport.CALCIO, "Samp");
 
